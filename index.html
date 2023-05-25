@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/botones-encendido-apagado-estilo-plano-interruptor-palanca-ilustracion-vectorial-sobre-fondo-aislado-concepto-negocio-signo-apagado_157943-2466-transformed.jpeg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Spitt</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#Inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#Sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#Skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#Portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#Contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>    
+        </header>
+    </div>
+    <section id="Inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Diseño sin título.png" alt="foto de perfil personal">
+            </div>
+            <h1>Jorge Alberto Vallejos</h1>
+            <h2>Tecnico en informatica-Programador</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jorge-vallejos-programador"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/5493764169901"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/vallejosjorgea/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100089218520238"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <section id="Sobremi" class="sobremi">
+        <div class="contenido-seccion"> 
+            <h2>Sobre Mi</h2>
+            <p>Soy una persona con perfil analítico y visión técnica. Cuento con gran motivación para seguir perfeccionando mis habilidades y
+            crecer profesionalmente.
+            Confío plenamente en mi capacidad de aprendizaje y adaptación a nuevos desafíos.
+            </p>
+            <div class="fila">
+                <div class="columna">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li> 
+                        <strong>Cumpleaños</strong>
+                        17/05/1989
+                    </li>
+                    <li> 
+                        <strong>Telefono</strong>
+                        3764169901
+                    </li>
+                    <li> 
+                        <strong>Direccion</strong>
+                        Calle 182 Casa 6770, Posadas, Misiones, Argentina
+                    </li>
+                    <li> 
+                        <strong>Email</strong>
+                        spittvallejos@gmail.com
+                    </li>
+                    <li> 
+                        <strong>Cargo</strong>
+                        <span>Tecnico informatico y programador</span>
+                    </li>
+                </ul>
+                </div>
+                <div class="columna">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Programacion</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>Guitarra</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Matematicas</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-car-side"></i>
+                            <span>Paseo de <br>relajacion</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dog"></i>
+                            <span>Animales</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>Voley</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button><a href="img/Vallejos, Jorge A..pdf" download="CV2023.pdf">Descargar C.V. <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section id="Skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="columna">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="skill">
+                        <span>Html5 & Css3</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Visual Basic .Net</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="columna">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>                            
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="skill">
+                        <span>Autodidacta</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="columna izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Secundaria</h4>
+                        <span class="casa">E.P.E.T. Nº1 UNESCO</span>
+                        <span class="fecha">2000-2009</span>
+                        <p>
+                            Técnico en informática personal y
+                            profesional Bachiller en Economía y
+                            gestión de las organizaciones
+                        </p>
+                         <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso</h4>
+                        <span class="casa">Educacion IT</span>
+                        <span class="fecha">2022</span>
+                        <p>
+                            PowerBI nivel experto-Completado 
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso</h4>
+                        <span class="casa">Educacion IT</span>
+                        <span class="fecha">2022</span>
+                        <p>
+                            Digit@lers- Developer Node.js-Completado
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso</h4>
+                        <span class="casa">Silicon Misiones</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            Nivel Nº1 "Introduccion a la programacion"
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso</h4>
+                        <span class="casa">Codigofacilito</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            Curso Profesional de Java 
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso</h4>
+                        <span class="casa">Silicon Misiones/Cursando actualmente</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            Nivel Nº2 "Programacion Web Full Stack"
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Particular</h4>
+                        <span class="casa">Particular</span>
+                        <span class="fecha">2016-2023</span>
+                        <p>
+                            Servicio técnico informatico
+                            Clases de apoyo de matematicas y
+                            fisica secundaria.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Operario</h4>
+                        <span class="casa">Andreani S.A.</span>
+                        <span class="fecha">2015</span>
+                        <p>
+                            Carga y descarga de mercadería.
+                            Organización de deposito y limpieza.
+                            Entregas a cliente final.   
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Operarion calificado</h4>
+                        <span class="casa">B.G.H. S.A.</span>
+                        <span class="fecha">2012-2015</span>
+                        <p>
+                            Operario calificado en maquinas del sector automatica, dedicada a la fabricacion de placas electronicas.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Operario calificado</h4>
+                        <span class="casa">Electro Fueguina S.A.</span>
+                        <span class="fecha">2011</span>
+                        <p>
+                            Operario calificado responsable de maquinas VCD y Radial.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Pasante sector estadisticas</h4>
+                        <span class="casa">Ministerio de Educacion-Posadas Misiones</span>
+                        <span class="fecha">2011</span>
+                        <p>
+                            Carga de datos.
+                            Generación de informes y reportes.
+                            Manejo de paquete office.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Atencion al cliente/Deposito/Repositor</h4>
+                        <span class="casa">Libreria Bochos</span>
+                        <span class="fecha">2009-2010</span>
+                        <p>
+                            Control de stock.
+                            Atención personalizada.
+                            Gestión de reclamos.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </section>
+    <section id="Portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Certificados</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="#imagen1">
+                        <img src="img/1.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen2">
+                        <img src="img/2.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen3">
+                        <img src="img/3.jpeg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen4">
+                        <img src="img/4.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen5">
+                        <img src="img/5.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen6">
+                        <img src="img/6.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen7">
+                        <img src="img/7.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen8">
+                        <img src="img/8.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen9">
+                        <img src="img/9.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen10">
+                        <img src="img/10.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen10">
+                        <img src="img/11.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen12">
+                        <img src="img/12.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+                <div class="proyecto">
+                    <a href="#imagen13">
+                        <img src="img/13.jpg" alt="">
+                    </a>
+                    <!--<div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <article class="light-box" id="imagen1">
+            <a href="#imagen13"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/1.jpg" alt="">
+            <a href="#imagen2"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen2">
+            <a href="#imagen1"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/2.jpg" alt="">
+            <a href="#imagen3"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen3">
+            <a href="#imagen2"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/3.jpeg" alt="">
+            <a href="#imagen4"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen4">
+            <a href="#imagen3"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/4.jpg" alt="">
+            <a href="#imagen5"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen5">
+            <a href="#imagen4"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/5.jpg" alt="">
+            <a href="#imagen6"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen6">
+            <a href="#imagen5"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/6.jpg" alt="">
+            <a href="#imagen7"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        
+        <article class="light-box" id="imagen7">
+            <a href="#imagen6"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/7.jpg" alt="">
+            <a href="#imagen8"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        
+        <article class="light-box" id="imagen8">
+            <a href="#imagen7"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/8.jpg" alt="">
+            <a href="#imagen9"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        
+        <article class="light-box" id="imagen9">
+            <a href="#imagen8"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/9.jpg" alt="">
+            <a href="#imagen10"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        
+        <article class="light-box" id="imagen10">
+            <a href="#imagen9"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/10.jpg" alt="">
+            <a href="#imagen11"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        
+        <article class="light-box" id="imagen11">
+            <a href="#imagen10"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/11.jpg" alt="">
+            <a href="#imagen12"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen12">
+            <a href="#imagen11"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/12.jpg" alt="">
+            <a href="#imagen13"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+        <article class="light-box" id="imagen13">
+            <a href="#imagen12"class="next"><span class="material-symbols-outlined">
+                arrow_back
+                </span></a>
+                <img src="img/13.jpg" alt="">
+            <a href="#imagen1"class="next"><span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            <a href="#Portfolio"class="close"><img class="icons" src="img/cancelar.png" alt=""></a>
+        </article>
+    </section>
+    <section id="Contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="columna">
+                    <form action="boton.js" method="post">
+                        <input id="nombre"type="text"placeholder="Tu nombre">
+                        <input id="email"type="email"placeholder="Email">
+                        <textarea id="mensaje"name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button onclick="enviarMensaje()">Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"> </span></button>
+                    </form>
+                </div>
+                <!--mapa-->
+                <div class="columna">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.5789532643576!2d-55.957930214168464!3d-27.42006221536465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457bd1fa7380395%3A0x9ba9b9c3ae926978!2sSpitt%20Soluciones%20Informaticas!5e0!3m2!1ses-419!2sar!4v1680118681734!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#Inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jorge-vallejos-programador"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/5493764169901"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/vallejosjorgea/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100089218520238"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
