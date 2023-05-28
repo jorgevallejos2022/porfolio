@@ -592,8 +592,8 @@ html{
     display: flex;
 }
 .contacto .columna{
-    width: 50%;
-    padding: 10px;
+    width: 100%;
+    padding: auto;
     position: relative;
 }
 .contacto .columna input, .contacto .columna textarea{
